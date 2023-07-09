@@ -1,0 +1,122 @@
+@import "../../styles/variables.scss";
+
+.index {
+  flex: 1;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80;
+  background-color: $color-brand;
+  &-title {
+    color: #ffffff;
+    font-size: $font-size-xl;
+  }
+}
+
+.info {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 36px;
+  padding-right: 36px;
+  text-align: center;
+  &-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: $spacing-v-xl;
+  }
+  &-text {
+    text-align: left;
+    font-size: $font-size-base;
+    color: $color-text-paragraph;
+    line-height: 40px;
+    font-family: 'Outfit-Regular'; // 兼容 Android 与 iOS，不设置 font weight
+  }
+}
+
+.load {
+  padding: 36px;
+  &-header {
+    flex-direction: row;
+    &-input {
+      flex: 1;
+      border-bottom-color: #dedede;
+      border-bottom-width: 1px;
+      margin-right: 10px;
+    }
+    &-icon {
+      height: 60px;
+      width: 60px;
+      /*  #ifdef rn */
+      tint-color: $color-brand;
+      /*  #endif  */
+    }
+  }
+  &-btn {
+    margin: 40px 0;
+    background-color: $color-brand;
+  }
+}
+
+.bundle {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  &-control {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px;
+  }
+
+  &-item {
+    padding: 20px 32px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    &-text {
+      font-size: 28px;
+      color: $color-text-paragraph;
+    }
+    &-sep {
+      height: 1px;
+      width: 100%;
+      background-color: $color-grey-4;
+    }
+    &-img {
+      height: 80px;
+      width: 80px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    &-img-small {
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      margin-right: 35px;
+      margin-left: 15px;
+    }
+    &-content {
+      flex: 1;
+      justify-content: center;
+    }
+    &-title {
+      font-size: 28px;
+      margin-bottom: 4px;
+      color: $color-text-paragraph;
+    }
+    &-des {
+      font-size: 20px;
+      color: $color-text-paragraph;
+    }
+  }
+}
+
+.statement {
+  color: $color-grey-2;
+  padding: 0px 32px;
+  font-size: 22px;
+}

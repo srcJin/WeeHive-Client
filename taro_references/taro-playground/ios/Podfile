@@ -1,0 +1,45 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+require_relative '../node_modules/react-native-unimodules/cocoapods.rb'
+
+platform :ios, '11.0'
+
+target 'taroDemo' do
+  use_unimodules!
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  # use_flipper!()
+
+  post_install do |installer|
+    # !!! attention: for react native debug at release build only. remove next lines for your own application.
+    find_and_replace("../node_modules/react-native/React/CoreModules/RCTDevLoadingView.mm","[self showOfflineMessage];","")
+    find_and_replace("../node_modules/react-native/React/Base/RCTDefines.h","#define RCT_DEV 0", "#define RCT_DEV 1")
+    find_and_replace("../node_modules/react-native/React/Base/RCTKeyCommands.m", "#if RCT_DEV", "#if DEBUG")
+    # !!! end
+    react_native_post_install(installer)
+    __apply_Xcode_12_5_M1_post_install_workaround(installer)
+  end
+end
+
+def find_and_replace(dir, findstr, replacestr)
+  Dir[dir].each do |name|
+      text = File.read(name)
+      replace = text.gsub(findstr,replacestr)
+      if text != replace
+          puts "Fix: " + name
+          File.open(name, "w") { |file| file.puts replace }
+          STDOUT.flush
+      end
+  end
+  Dir[dir + '*/'].each(&method(:find_and_replace))
+end

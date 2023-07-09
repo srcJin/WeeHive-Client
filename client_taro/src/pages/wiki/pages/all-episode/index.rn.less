@@ -1,0 +1,30 @@
+@import "@style/index";
+@import "@components/Back/index.less";
+
+.all-e {
+  background-color: @theme-background;
+  height: 1000px;
+  min-height: 100%;
+
+  &-header {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 88px;
+    margin-left: 64px;
+
+    &-title {
+      .font-white-title();
+      font-size: 38px;
+    }
+  }
+
+  &-container {
+    height: 100%;
+  }
+
+  &-content {
+    padding: 64px;
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+}

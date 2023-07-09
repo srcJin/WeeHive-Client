@@ -1,0 +1,41 @@
+@import "@style/index";
+@import "@components/Back/index.less";
+
+.c-list {
+  background-color: @theme-background;
+  height: 1000px;
+  min-height: 100%;
+
+  &-header {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 88px;
+    padding: 0 64px;
+
+    &-title {
+      .font-white-title();
+      font-size: 66px;
+    }
+
+    &-sub {
+      margin-top: 8px;
+      padding: 0 64px;
+    }
+
+    &-primary {
+      .font-white-primary();
+      font-size: 42px;
+    }
+
+    &-secondary {
+      .font-white-secondary();
+      font-size: 36px;
+      margin-top: 8px;
+    }
+  }
+
+  &-content {
+    padding: 64px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,77 @@
+@import "@style/index";
+
+.e-card {
+  background-color: @theme-grey;
+  border-radius: 20px;
+  margin-bottom: 56px;
+  flex-direction: row;
+  padding: 24px;
+
+  &_active {
+    opacity: 0.75;
+  }
+
+  &-left {
+    background-color: @theme-background;
+    border-radius: 20px;
+    margin-right: 24px;
+    width: 96px;
+    justify-content: center;
+    align-items: center;
+
+    &-episode {
+      .font-white-title();
+      font-weight: bold;
+      font-size: 32px;
+    }
+  }
+
+  &-right {
+    flex: 1;
+    padding: 4px 0;
+  }
+
+  &-name {
+    margin-bottom: 8px;
+
+    &-text {
+      .font-white-title();
+      font-size: 36px;
+      font-weight: bold;
+    }
+  }
+
+  &-date {
+    &-text {
+      .font-white-primary();
+      font-size: 32px;
+    }
+  }
+
+  &-loading {
+    &-left {
+      height: 109px;
+      width: 96px;
+      border-radius: 8px;
+      background-color: @color-grey;
+    }
+
+    &-right {
+      justify-content: space-between;
+    }
+
+    &-name {
+      height: 46px;
+      width: 180px;
+      border-radius: 4px;
+      background-color: @color-grey;
+    }
+
+    &-date {
+      height: 40px;
+      width: 300px;
+      border-radius: 4px;
+      background-color: @color-grey;
+    }
+  }
+}

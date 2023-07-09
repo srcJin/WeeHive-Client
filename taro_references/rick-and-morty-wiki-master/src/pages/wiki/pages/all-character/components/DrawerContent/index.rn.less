@@ -1,0 +1,61 @@
+@import "@style/index";
+
+.ac-drawer {
+  height: 100%;
+  width: 100%;
+  padding: 32px;
+  justify-content: center;
+  background-color: #24292e;
+
+  &-title {
+    .font-white-title();
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  &-item {
+    height: 92px;
+    background-color: @theme-grey;
+    border-radius: 24px;
+    padding: 0 24px;
+    margin-bottom: 32px;
+    flex-direction: row;
+    align-items: center;
+
+    &-text {
+      .font-white-primary();
+      font-size: 32px;
+    }
+  }
+
+  &-bottom {
+    margin-top: 42px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-refresh {
+    margin: 0;
+    margin-right: 16px;
+    height: 88px;
+    width: 88px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-search {
+    flex: 1;
+    height: 88px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    &-text {
+      .font-black-title();
+      font-size: 32px;
+    }
+  }
+}

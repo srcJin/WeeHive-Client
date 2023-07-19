@@ -10,8 +10,8 @@ import './index.less'
 const Wiki: React.FC<any> = () => {
 
   return (
-    <View className='about'>
-      <Text className='about-title'>
+    <View>
+      {/* <Text className='about-title'>
         Community Page
       </Text>
       <View className='about-p'>
@@ -20,9 +20,9 @@ const Wiki: React.FC<any> = () => {
 
       <View className='about-subTitle'>
         <Text className='about-com'>Subtitle</Text>
-      </View>
+      </View> */}
 
-      <View className='about-box'>
+      {/* <View className='about-box'>
         {
           techPops.map((pop, index) => (
             <PopBtn
@@ -33,7 +33,7 @@ const Wiki: React.FC<any> = () => {
             />
           ))
         }
-      </View>
+      </View> */}
 
     </View>
   )

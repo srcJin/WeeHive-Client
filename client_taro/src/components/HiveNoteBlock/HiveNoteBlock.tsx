@@ -5,11 +5,11 @@ import "./HiveNoteBlock.less";
 const HiveNoteBlock = () => {
   return (
     <View className="hive-note-block">
-      <View className="hive-note-block-title">View Historical Data</View>
+      <View className="hive-note-block-title">Notes</View>
       <View className="hive-note-block-content">
         <Image
           className="next-page"
-          src={require("../../assets/image/Setting.svg")}
+          src={require("../../assets/image/ForwardArrow.svg")}
         />
       </View>
     </View>

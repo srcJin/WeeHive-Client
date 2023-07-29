@@ -9,7 +9,7 @@ const HiveHistoryBlock = () => {
       <View className="history-block-content">
         <Image
           className="next-page"
-          src={require("../../assets/image/Setting.svg")}
+          src={require("../../assets/image/ForwardArrow.svg")}
         />
       </View>
     </View>

@@ -15,7 +15,7 @@ const AppHeader = ({ title, isMainPage = true }) => {
         <View className="app-header-back-button" onClick={handleClick}>
           <Image
             className="app-header-back-button-icon"
-            src={require("../../assets/image/Setting.svg")}
+            src={require("../../assets/image/BackArrow.svg")}
           />
         </View>
       )}

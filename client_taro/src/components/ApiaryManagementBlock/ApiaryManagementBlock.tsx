@@ -44,7 +44,8 @@ const ApiaryManagementBlock: React.FC<ApiaryManagementBlockProps> = ({
         <View className="managementTopRight">
           <Image
             className="managementImage"
-            src={require("../../assets/image/Build_booth.svg")}
+            style={{ color: "#ff4949;" }}
+            src={require("../../assets/image/Caution.svg")}
           />
           <Text>{CreateNumberText(numberOfWarnings, "Warning")}</Text>
         </View>
@@ -54,8 +55,8 @@ const ApiaryManagementBlock: React.FC<ApiaryManagementBlockProps> = ({
           <View className="managementButtons" onClick={handleAddHivesClick}>
             <View className="managementCircle">
               <Image
-                className="editImage"
-                src={require("../../assets/image/Setting.svg")}
+                className="addImage"
+                src={require("../../assets/image/add.svg")}
               />
             </View>
             <Text className="managementText">Add Hives</Text>
@@ -66,7 +67,7 @@ const ApiaryManagementBlock: React.FC<ApiaryManagementBlockProps> = ({
             <View className="managementCircle">
               <Image
                 className="editImage"
-                src={require("../../assets/image/Setting.svg")}
+                src={require("../../assets/image/More.svg")}
               />
             </View>
             <Text className="managementText">Manage Apairy</Text>

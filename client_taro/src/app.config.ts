@@ -1,4 +1,4 @@
-import { useGlobalIconFont } from './components/Iconfont/helper';
+import { useGlobalIconFont } from "./components/Iconfont/helper";
 
 export default {
   pages: [
@@ -11,11 +11,20 @@ export default {
     "pages/wiki/pages/all-character/index",
     "pages/wiki/pages/all-episode/index",
     "pages/wiki/pages/character-list/index",
+
+    "pages/dashboard/index",
+    "pages/dashboard/apiary/manage/index",
+    "pages/dashboard/apiary/manage/add/index",
+    "pages/dashboard/apiary/manage/edit/index",
+    "pages/dashboard/hive/index",
+    "pages/dashboard/hive/add/index",
+
+    "pages/notes/index"
   ],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#ffffff",
-    navigationStyle: 'custom',
+    navigationStyle: "custom",
     navigationBarTextStyle: "white"
   },
   rn: {
@@ -61,5 +70,5 @@ export default {
       }
     ]
   },
-  usingComponents: Object.assign(useGlobalIconFont()),
+  usingComponents: Object.assign(useGlobalIconFont())
 };

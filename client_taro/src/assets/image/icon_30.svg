@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 32C0 14.328 14.328 0 32 0s32 14.328 32 32-14.328 32-32 32S0 49.672 0 32zm42.07-14.099L32 27.971l-10.07-10.07a2.848 2.848 0 1 0-4.029 4.028L27.971 32l-10.07 10.07a2.848 2.848 0 1 0 4.028 4.029L32 36.029l10.07 10.07a2.848 2.848 0 1 0 4.029-4.028L36.029 32l10.07-10.07a2.848 2.848 0 1 0-4.028-4.029z" fill="#000" fill-opacity=".1"/>
+    <mask id="hpdsx4m4ia" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 32C0 14.328 14.328 0 32 0s32 14.328 32 32-14.328 32-32 32S0 49.672 0 32zm42.07-14.099L32 27.971l-10.07-10.07a2.848 2.848 0 1 0-4.029 4.028L27.971 32l-10.07 10.07a2.848 2.848 0 1 0 4.028 4.029L32 36.029l10.07 10.07a2.848 2.848 0 1 0 4.029-4.028L36.029 32l10.07-10.07a2.848 2.848 0 1 0-4.028-4.029z" fill="#fff"/>
+    </mask>
+    <g mask="url(#hpdsx4m4ia)">
+        <path fill="#CCC" d="M0 0h64v64H0z"/>
+    </g>
+</svg>

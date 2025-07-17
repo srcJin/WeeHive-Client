@@ -1,0 +1,8 @@
+# 负责维护 [NervJS/taro](https://github.com/NervJS/taro)、[NervJS/taro-ui](https://github.com/NervJS/taro-ui) 仓库，帮助用户和初级贡献者，参加具体工作组为当前项目贡献代码和文档，评审和评论 issues 和 pull requests。
+## 成员[​](role-collaborator.html#成员)
+[xueshuai](https://github.com/xueshuai)[ZEJIA-LIU](https://github.com/ZEJIA-LIU)[LuMeiling](https://github.com/LuMeiling)[soulhat](https://github.com/soulhat)[huozhongyi123](https://github.com/huozhongyi123)[xuanzebin](https://github.com/xuanzebin)[heiazu](https://github.com/heiazu)[baosiqing](https://github.com/baosiqing)[biorz](https://github.com/biorz)[nanjingboy](https://github.com/nanjingboy)[troy-sxj](https://github.com/troy-sxj)[b2nil](https://github.com/b2nil)[TheKonka](https://github.com/TheKonka)[bigmeow](https://github.com/bigmeow)[robinv8](https://github.com/robinv8)[SyMind](https://github.com/SyMind)[agileago](https://github.com/agileago)[JiyuShao](https://github.com/JiyuShao)[qican77](https://github.com/qican77)[hisanshao](https://github.com/hisanshao)[tgioer](https://github.com/tgioer)[szg2008](https://github.com/szg2008)[richard1015](https://github.com/richard1015)[innocces](https://github.com/innocces)[shenghanqin](https://github.com/shenghanqin)
+## 荣誉成员[​](role-collaborator.html#荣誉成员)
+我们也要感谢所有过去的成员，感谢他们的宝贵贡献！
+[AdvancedCat](https://github.com/AdvancedCat)[Garfield550](https://github.com/Garfield550)[evernoteHW](https://github.com/evernoteHW)[Manjiz](https://github.com/Manjiz)[Qiyu8](https://github.com/Qiyu8)[koppthe](https://github.com/koppthe)[yechunxi](https://github.com/yechunxi)[Bless-L](https://github.com/Bless-L)[zacksleo](https://github.com/zacksleo)[cncolder](https://github.com/cncolder)[fjc0k](https://github.com/fjc0k)[js-newbee](https://github.com/js-newbee)[jimczj](https://github.com/jimczj)
+- 
+-
